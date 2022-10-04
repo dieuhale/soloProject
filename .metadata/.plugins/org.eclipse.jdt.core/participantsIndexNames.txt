@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/Users/ericha/Library/Mobile Documents/com~apple~CloudDocs/Dojo_assignments/soloProject/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1662666423.index
+/soloProject/src/main/java
