@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0 40px 0 0;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: url("https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/06/29/Pictures/_a9de93ca-5ca6-11e7-a7a5-fdf01393e65b.jpg") no-repeat center/ cover;
+}
+.main{
+	
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	background: url(https://images.unsplash.com/photo-1538137524007-21e48fa42f3f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac9fa0975bd2ebad7afd906c5a3a15ab&auto=format&fit=crop&w=1834&q=80) no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+
+header {
+	
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85%/5%;
+}
+
+header .overlay {
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	background-image: linear-gradient(135deg, #9f05ff69 20%, #fd5e086b 70%);
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	color: white;
+	
+}
+
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #573b8a;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 30%;
+	height: 40px;
+	margin: 5px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+.login{
+	height: 400px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-80px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-550px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1.1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+.validation {
+	color: red;
+	margin-left: 110px;
+}
+
+
+
+
+
+

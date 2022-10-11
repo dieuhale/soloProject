@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 900px;
+}
+
+header {
+	background:
+		url('https://www.chefpapas.com/wp-content/uploads/2017/08/chef-papas-fresh-food-bg.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85%/5%;
+}
+
+header .overlay {
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	background-image: linear-gradient(135deg, #9f05ff69 20%, #fd5e086b 70%);
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	font-family: serif;
+}
+
+button:hover {
+	background-color: #66ffff;
+}
+
+.overlay a:hover {
+	background-color: #ffe6e6;
+	color: black;
+	border-radius: 95px;
+	font-family: serif;
+}
+
+.overlay a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-family: serif;
+}
+
+body {
+	margin: auto;
+	font-size: 15px;
+	font-family: Verdana;
+}
+
+.form-style-9 {
+	max-width: 1440px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+	font-family: serif;
+}
+
+.form-style-9 ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.form-style-9 ul li {
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+	font-family: serif;
+}
+
+.form-style-9 ul li  .field-style {
+	box-sizing: border-box;
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	
+}
+
+.form-style-9 ul li  .field-style:focus {
+	box-shadow: 0 0 5px #B0CFE0;
+	border: 1px solid #B0CFE0;
+}
+
+.form-style-9 ul li .field-full {
+	width: 100%;
+}
+
+.form-style-9 ul li textarea {
+	width: 100%;
+	height: 100px;
+}
+
+.validation {
+	color: red;
+}
+
+
+
+

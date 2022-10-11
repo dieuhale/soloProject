@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 800px;
+}
+
+header {
+	background:
+		url('https://media.istockphoto.com/photos/fresh-salmon-fillet-with-aromatic-herbs-spices-and-vegetables-picture-id935316720?k=20&m=935316720&s=612x612&w=0&h=vzrKB7ZnQA3Av1ixXHE8STFX0i3Z8OHhLf9l4CgcVVk=');
+	
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85%/5%;
+
+}
+
+header .overlay {
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	background-image: ( ( 200, 240), radial-gradient( ( #00b8a9, #f8f3d4,
+		#f6416c, #ffde7d) 15%, transparent 50%) ( 100%) ( 100%)/ ( 1%, 3%)
+		no-repeat);
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	margin: 30px 0;
+}
+
+h3 {
+	font: italic bold 16px/10px Georgia, serif;
+	color: #F13C20;;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.overlay a:hover {
+	background-color: #ffe6e6;
+	color: black;
+	border-radius: 95px;
+	font-family: serif;
+}
+
+.overlay a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-family: serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.big-container {
+	width: 1370px;
+	height: 900px;
+	overflow: hidden;
+	background:
+		url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZ-WWs4F4hnvOC3UZE3erohrtJ4lwKT1tug&usqp=CAU)
+		no-repeat center/cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+	float: right;
+	margin: 30px 30px 0 0;
+	padding: 30px;
+	font-family: "Libre Baskerville", serif;
+}
+
+.small-container {
+	width: 320px;
+	height: 230px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 30px 0 0 30px;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 3px solid #557A95;
+	font-family: serif;
+	float: left;
+}
+
+p {
+	font: italic bold 14px/10px Georgia, serif;
+}
