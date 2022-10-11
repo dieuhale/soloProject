@@ -61,6 +61,7 @@
 								path="directions" /> </li>
 						<li><form:input type="hidden" value="${loggedInUser.id}"
 								path="user" /></li>
+						<li><form:input type="hidden" path="favUsers" /></li>
 						<li>
 							<button >Submit</button>
 						</li>
